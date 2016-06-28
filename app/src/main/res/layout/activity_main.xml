@@ -18,6 +18,7 @@
         android:orientation="vertical" />
 
     <LinearLayout
+        android:id="@+id/button_panel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="0.70"
@@ -30,33 +31,65 @@
             android:text="@string/welcome_message" />
 
         <Button
+            android:id="@+id/popular_movie_app_btn"
+            style="@style/ButtonText"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/popular_movie_app_name" />
 
         <Button
+            android:id="@+id/stock_hawk_app_btn"
+            style="@style/ButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/stock_hawk_app_name" />
 
         <Button
+            android:id="@+id/build_it_bigger_app_btn"
+            style="@style/ButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/build_it_bigger_app_name" />
 
         <Button
+            android:id="@+id/make_your_app_material_btn"
+            style="@style/ButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/make_app_material_app_name" />
 
         <Button
+            android:id="@+id/go_ubiquitous_app_btn"
+            style="@style/ButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/ubiquitous_app_name" />
 
+
         <Button
+            android:id="@+id/capstone_btn"
+            style="@style/ButtonText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="@dimen/btn_vertical_margin"
+            android:background="@color/colorAccent"
+            android:padding="@dimen/btn_padding"
             android:text="@string/capstone_app_name" />
     </LinearLayout>
 
